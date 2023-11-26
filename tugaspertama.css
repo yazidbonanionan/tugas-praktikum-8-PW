@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+header, nav, article, aside {
+    padding: 25px;
+    margin: 0;
+}
+.header {
+    background-color: aqua;
+    width: 92%;
+    /*margin-left: 30%; */
+}
+
+.nav {
+    background-color: bisque;
+    height: 85vh;
+    width: 25%;
+    margin-top: 0;
+}
+.content {
+    display: table-row;
+    /*height: 80vh; */
+    width: 100%;
+}
+.article {
+    background-color: azure;
+    width: 55%;
+    height: 75vh;
+}
+.footer {
+    background-color: darkgrey;
+    width: 100%;
+    /* margin-left: 25; */
+    /* height: 20vh; */
+}
+.flex {
+    display: flex
+}
